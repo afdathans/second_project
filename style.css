@@ -1,0 +1,94 @@
+/* Navv */
+nav {
+  background-color: black;
+  font-weight: bold;
+}
+/* Jmbotron */
+.jumbotron .row {
+  flex-direction: row-reverse;
+  display: flex;
+  margin-top: 100px;
+}
+.keterangan {
+  margin-top: -250px;
+}
+/* Body */
+* {
+  font-family: "Poppins";
+}
+body {
+  height: 2000px;
+}
+button {
+  border-radius: 10px;
+  border: none;
+  background-color: black;
+  font-weight: bold;
+  color: azure;
+}
+/* About */
+.card-body {
+  display: inline-block;
+  flex-direction: row-reverse;
+}
+.card-body img {
+  margin: auto;
+  border: none;
+}
+.card {
+  border: none;
+}
+.fav {
+  margin-bottom: 10px;
+}
+/* Porject */
+.Portfilio {
+  margin-top: 60px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 30%;
+  background-color: black;
+}
+@media screen and (max-width: 425px) {
+  img {
+    width: 200px;
+  }
+  .keterangan {
+    margin-top: 0;
+    text-align: center;
+  }
+  .more {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 767px) {
+  img {
+    padding-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .keterangan {
+    margin-top: 40px;
+    text-align: center;
+  }
+  .more {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 982px) {
+  img {
+    padding-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .keterangan {
+    margin-top: 40px;
+    text-align: center;
+  }
+  .more {
+    text-align: center;
+  }
+}
