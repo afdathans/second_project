@@ -1,6 +1,6 @@
 /* Navv */
 nav {
-  background-color: black;
+  background-color: #252525;
   font-weight: bold;
 }
 /* Jmbotron */
@@ -12,35 +12,43 @@ nav {
 .keterangan {
   margin-top: -250px;
 }
+.junior {
+  margin-top: -20px;
+}
+.nama {
+  margin-top: -10px;
+}
 /* Body */
 * {
   font-family: "Poppins";
 }
-body {
-  height: 2000px;
-}
 button {
   border-radius: 10px;
   border: none;
-  background-color: black;
+  background-color: #252525;
   font-weight: bold;
   color: azure;
 }
+
 /* About */
-.card-body {
-  display: inline-block;
+.About {
+  margin-top: 155px;
+}
+.About .firstabout {
+  flex-direction: row;
+  display: flex;
+}
+.judul {
+  margin-top: 60px;
+}
+.About .secondabout {
   flex-direction: row-reverse;
+  display: flex;
 }
-.card-body img {
-  margin: auto;
-  border: none;
+.teks {
+  text-align: start;
 }
-.card {
-  border: none;
-}
-.fav {
-  margin-bottom: 10px;
-}
+/* Skill */
 /* Porject */
 .Portfilio {
   margin-top: 60px;
@@ -50,23 +58,77 @@ a {
   color: white;
   font-weight: bold;
   border-radius: 30%;
-  background-color: black;
+  background-color: #252525;
+}
+.card {
+  border: none;
+}
+.foto {
+  width: 100px;
+}
+.Skill {
+  padding-top: 160px;
+}
+.what {
+  margin-bottom: 50px;
+}
+.do {
+  padding-bottom: 100px;
+}
+.Portfilio {
+  margin-bottom: 120px;
+}
+
+/* footer */
+footer {
+  background-color: #252525;
+  color: beige;
+  padding-bottom: -1000px;
+}
+.gerak {
+  margin-top: -20px;
+}
+.gerak2 {
+  margin-bottom: -20px;
 }
 @media screen and (max-width: 425px) {
   img {
     width: 200px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .keterangan {
-    margin-top: 0;
+    margin-top: 20px;
     text-align: center;
   }
   .more {
     text-align: center;
   }
+  .teks {
+    text-align: center;
+  }
+  .judul {
+    margin-top: 10px;
+  }
+  .About {
+    margin-top: 10px;
+  }
+  .what {
+    margin-bottom: 20px;
+  }
+  .do {
+    padding-bottom: 0px;
+  }
+  .Skill {
+    padding-top: 0;
+  }
+  span {
+    margin-bottom: -20px;
+  }
 }
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 426px) and (max-width: 768px) {
   img {
-    padding-top: 10%;
+    width: 300px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -77,10 +139,25 @@ a {
   .more {
     text-align: center;
   }
+  .teks {
+    text-align: center;
+  }
+  .judul {
+    margin-top: 10px;
+  }
+  .what {
+    margin-bottom: 20px;
+  }
+  .do {
+    padding-bottom: 0px;
+  }
+  .Skill {
+    padding-top: 0;
+  }
 }
-@media screen and (max-width: 982px) {
+@media screen and (min-width: 769px) and (max-width: 982px) {
   img {
-    padding-top: 10%;
+    width: 350px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -90,5 +167,20 @@ a {
   }
   .more {
     text-align: center;
+  }
+  .teks {
+    text-align: center;
+  }
+  .judul {
+    margin-top: 10px;
+  }
+  .what {
+    margin-bottom: 20px;
+  }
+  .do {
+    padding-bottom: 0px;
+  }
+  .Skill {
+    padding-top: 0;
   }
 }
